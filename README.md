@@ -2,10 +2,6 @@
 
 This is an Express Web Server framework that demonstrates some of the capability of Express written out in TypeScript.
 
-## Deployed site
-
-[Express Max](https://chuckerin.github.io/express-max/)
-
 ## Project tools
 
 - [Express](https://expressjs.com/) - Web Server Framework for Node.js
@@ -16,7 +12,7 @@ This is an Express Web Server framework that demonstrates some of the capability
 - [Nodemon](https://www.npmjs.com/package/nodemon) - Will restart server when code changes
 - [Concurrently](https://www.npmjs.com/package/concurrently) - Run multiple commands concurrently.
 
-## Cloning, Testing, Running, & Deploying
+## Cloning, Running, & Testing
 
 1. Open a terminal, navigate to the location you want to clone the project.
 2. Clone the project `git clone https://github.com/chuckerin/express-max.git`
@@ -34,9 +30,7 @@ This is an Express Web Server framework that demonstrates some of the capability
       - `git remote add origin https://github.com/<your-account>/<your-repository>.git>`
    4. Push the local repository to your repository on github.
       - `git push origin main`
-7. Deploy the project to GitHub pages with `npm run deploy`
-   1. You can watch the progress of the deployment on the `Actions` tab of the repository after it's been built and published
 
 ## External Tools
 
-In the project directory `/external` are exported collections for [Postman](https://www.postman.com/) to test out the Express Max deployed services.
+In the project directory `/.project` are exported collections for [Postman](https://www.postman.com/) to test out the Express Max deployed services.
