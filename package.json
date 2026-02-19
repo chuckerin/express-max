@@ -1,13 +1,13 @@
 {
   "name": "express-max",
+  "homepage": "https://chuckerin.github.io/copeland-weather3/",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start:build": "tsc -w",
     "start:run": "nodemon dist/app.js",
-    "start": "concurrently npm:start:*",
-    "test": "echo \"Error: not test specified\" && exit 1"
+    "start": "concurrently npm:start:*"
   },
   "dependencies": {
     "body-parser": "^1.20.2",
